@@ -1,0 +1,20 @@
+<html>
+<head>
+<script type="text/javascript" src="jquery-1.10.2.js"></script>
+<script type="application/javascript" src="jquery-ui.js"></script>
+<script>
+$(document).ready(function(){
+  $('#b').click(function()
+  {
+  $('#d').attr('title','Alert').text('welcome').dialog();
+  });
+});
+</script>
+</head>
+<body>
+<input type="button" id="b" value="Click">
+<div id="d"></div>
+</body>
+
+</html>
+

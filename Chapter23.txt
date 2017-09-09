@@ -1,0 +1,34 @@
+<!doctype html>
+<html lang="en">
+   <head>
+      <meta charset="utf-8">
+      <title>jQuery UI Dialog functionality</title>
+       <script src="jquery-1.10.2.js"></script>
+      <script src="jquery-ui.js"></script>
+      
+      <style>
+         .ui-widget-header,.ui-state-default, ui-button{
+            background:#b9cd6d;
+            border: 1px solid #b9cd6d;
+            color: #FFFFFF;
+            font-weight: bold;
+         }
+      </style>
+      
+      <script>
+         $(function() {
+            $( "#dialog" ).dialog({
+               autoOpen: false,  
+            });
+            $( "#opener" ).click(function() {
+               $( "#dialog" ).dialog( "open" );
+            });
+         });
+      </script>
+   </head>
+   <body>
+     
+      <div id="dialog" title="Warning">Welcome</div>
+      <button id="opener">Open Dialog</button>
+   </body>
+</html>

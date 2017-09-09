@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="en">
+   <head>
+      <meta charset="utf-8">
+      <title></title>
+      
+      <script src="jquery-1.10.2.js"></script>
+      <script src="jquery-ui.js"></script>
+   
+      
+      <script>
+         $(function() {
+            $("#tooltip").tooltip();
+           
+         });
+      </script>
+   </head>
+   <body>
+     
+         Name:
+         <input id="tooltip" title="Enter You name">
+         
+   </body>
+</html>
+
+
+
+
+

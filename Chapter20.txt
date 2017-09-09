@@ -1,0 +1,21 @@
+<html>
+<head>
+<script type="text/javascript" src="jquery-1.10.2.js"></script>
+<script type="application/javascript" src="jquery-ui.js"></script>
+<script>
+$(document).ready(function(){
+  $('#names').sortable();
+});
+</script>
+</head>
+<body>
+<ul id="names">
+<li>java</li>
+<li>php</li>
+<li>android</li>
+</ul>
+
+</body>
+
+</html>
+

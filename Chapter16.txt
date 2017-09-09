@@ -1,0 +1,17 @@
+<html>
+<head>
+<script type="text/javascript" src="jquery-1.10.2.js"></script>
+<script type="application/javascript" src="jquery-ui.js"></script>
+<script>
+$(document).ready(function(){
+  $('#drag').draggable({containment:[0,0, 200, 200]});
+});
+</script>
+</head>
+<body>
+<div style=" width:100px; height:100px; background-color:#999"
+<span id="drag"> Drag Me </span>
+</div>
+</body>
+
+</html>

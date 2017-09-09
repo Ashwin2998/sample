@@ -1,0 +1,18 @@
+<html>
+<head>
+<script type="text/javascript" src="jquery-1.10.2.js"></script>
+<script type="application/javascript" src="jquery-ui.js"></script>
+<script>
+$(document).ready(function(){
+  $('#date').datepicker({dateFormat:'mm/dd/yy'});
+});
+</script>
+</head>
+<body>
+<div>
+Date:<input type="text" name="date" id="date">
+</div>
+</body>
+
+</html>
+
